@@ -1,0 +1,11 @@
+git init
+git add .
+git commit -m "version inicial"
+cls
+
+git config --global user.email you@example.com"
+git config --global user.name "your name"
+
+
+git remote add origin https://github.com/255280/prueba.git
+git push -u origin master

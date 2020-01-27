@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+        <title>Formulario</title>
+  </head>  
+  <body>
+      <h1>Formulario de Registro</h1>
+      <form action="procesa.php" method="POST">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre"><br><br>
+
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido"><br><br> 
+
+          <label form="Email">Correo</label>
+          <input type="text" id="Email" name="Correo"><br><br>
+
+          <label for="contraseña">Contraseña</label>
+          <input type="password" id="contraseña" name="contraseña"><br><br>
+
+          <label form="contraseña">Confirmar</label>
+          <input type="password" id="contraseña" name="contraseña"><br><br>
+
+         <label for="cumpleaños">Cumpleaños</label>
+         <input type="date" id="date" name="date"><br><br>
+         
+         <input type="radio" id="masculino" name="genero" value="masculino">
+         <label for="Masculino">Masculino</label>
+
+         <input type="radio" id="femenino" name="genero" value="femenino">
+         <label form="Femenino">Femenino</label>
+
+         <input type="radio" id="otro" name="genero" value="otro">
+         <label for="radio">otro</label><br><br>
+
+         <p>Una breve descripcion de ti:</p>
+         <textarea name="descripcion"></textarea><br>
+
+         <p>Lenguaje Favorito</p>
+         <select><option>Javasript</option>
+        <option>HTML</option></select>
+        <input type="submit" id="submit" name="Enviar"> 
+      </form>
+  </body>
+</html>
